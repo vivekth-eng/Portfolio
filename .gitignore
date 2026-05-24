@@ -1,0 +1,4 @@
+# Ignore everything except release bundle files
+.env
+mcp-settings.json
+/.agent/
