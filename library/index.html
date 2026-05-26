@@ -33,6 +33,22 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        for (let registration of registrations) {
+          if (registration.scope && registration.scope.indexOf('/Portfolio/library/') !== -1) {
+            registration.unregister().then(function(success) {
+              if (success) {
+                console.log('Unregistered service worker for library:', registration.scope);
+                window.location.reload();
+              }
+            });
+          }
+        }
+      });
+    }
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
