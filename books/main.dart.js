@@ -88318,12 +88318,12 @@ A.mM.prototype={
 kd(a,b){return this.asK(a,b)},
 asK(a,b){var s=0,r=A.G(t.N),q,p,o,n
 var $async$kd=A.H(function(c,d){if(c===1)return A.D(d,r)
-for(;;)switch(s){case 0:if(a==="test000@test.com"&&b==="test000"){q="mock_token_123"
+for(;;)switch(s){case 0:if(a==="test000@example.com"&&b==="test000"){q="mock_token_123"
 s=1
 break}else{p=A.azp(null,null,null,null,null,null,null,null,null,null,null,null,null,"/auth/token",null,null,null,null,null,null,null,null,null,null,null)
 o=A.azp(null,null,null,null,null,null,null,null,null,null,null,null,null,"/auth/token",null,null,null,null,null,null,null,null,null,null,null)
 n=t.N
-throw A.i(A.zp(null,null,p,A.ag5(A.ar(["detail","Invalid credentials. Use test000@test.com / test000."],n,n),null,null,!1,B.or,o,401,null,t.z),null,B.nl))}case 1:return A.E(q,r)}})
+throw A.i(A.zp(null,null,p,A.ag5(A.ar(["detail","Invalid credentials. Use test000@example.com / test000."],n,n),null,null,!1,B.or,o,401,null,t.z),null,B.nl))}case 1:return A.E(q,r)}})
 return A.F($async$kd,r)},
 m7(a,b,c){return this.auN(a,b,c)},
 auN(a,b,c){var s=0,r=A.G(t.H),q
@@ -98226,7 +98226,7 @@ B.Xx=new A.es(4,"Fahrenheit 451","Ray Bradbury",B.HK,156,"Ballantine Books",1205
 B.Xy=new A.es(3,"Angels & Demons","Dan Brown",B.ko,569,"Pocket Books",742,2000,4.3,"1416524797","World-renowned Harvard symbologist Robert Langdon is summoned to a Swiss research facility to analyze a mysterious symbol seared into the chest of a murdered physicist. What he discovers is unimaginable: a deadly vendetta against the Catholic Church by a legendary secret society, the Illuminati.","Angels_&_Demons_(Robert_Langdon,_#1)_1416524797.jpg",null,null,!1,0,null)
 B.IJ=s(["Nick Hornby"],t.s)
 B.Xz=new A.es(5,"About a Boy","Nick Hornby",B.IJ,307,"Riverhead Books",210,1998,4.2,"1573229571","About a Boy is a 1998 novel written by British writer Nick Hornby. It touches on themes of growing up, responsibility, and friendship. The story features Will Freeman, a 36-year-old Londoner, and Marcus Brewer, a socially awkward schoolboy.","About_a_Boy_1573229571.jpg",null,null,!1,0,null)
-B.XA=new A.Et(123,"test000@test.com","Test User")
+B.XA=new A.Et(123,"test000@example.com","Test User")
 B.aF=new A.wj(0,"forward")
 B.ir=new A.wj(1,"reverse")
 B.Zg=new A.ane(0,"elevated")
